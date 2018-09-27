@@ -42,6 +42,6 @@ td:nth-child(2n+6) {
 tr:nth-child(n+12) td:nth-child(2n+7) {
     background: indianred;
 }
-tr:nth-child(n+12) td:nth-child(2n+6) {
+tr:nth-child(n+1) td:nth-child(2n+6) {
     background: pink;
 }
