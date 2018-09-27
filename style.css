@@ -1,0 +1,47 @@
+
+table{
+    width: 900px;
+    height: 600px;
+    background: antiquewhite;
+    border: 1px solid;
+}
+th{
+    border: 1px solid;
+    text-align: left;
+}
+.cn{text-align: center;
+    height: 35px;
+    background: azure;
+}
+td{
+    text-align: right;
+    vertical-align: top;
+    border: 1px solid;
+}
+tr:nth-child(odd) {
+    height: 5px;
+}
+tr:nth-child(2n+4) {
+    height: 90px;
+}
+tr:nth-child(2n+1) td:nth-child(2n+7) {
+    background: silver;
+}
+tr:nth-child(2n+1) td:nth-child(2n+6) {
+    background: silver;
+}
+tr:nth-child(n+11) td:nth-child(n+3) {
+    background: silver;
+}
+td:nth-child(2n+7){
+    background: indianred;
+}
+td:nth-child(2n+6) {
+    background: pink;
+}
+tr:nth-child(n+12) td:nth-child(2n+7) {
+    background: indianred;
+}
+tr:nth-child(n+12) td:nth-child(2n+6) {
+    background: pink;
+}
